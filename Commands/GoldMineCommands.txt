@@ -1,0 +1,99 @@
+WINDA (glowny)
+    [TARGET]
+        /set prop_dynamic_props_medieva_1 target prop_wood_bridge_1_1
+        /set prop_dynamic_props_medieva_1 target1 prop_wood_bridge_1_2
+        /set prop_dynamic_props_medieva_1 target2 prop_wood_bridge_1_3
+        /set prop_dynamic_props_medieva_1 target4 prop_wood_bridge_1_0
+        /set prop_dynamic_props_medieva_1 target3 prop_med_metal_bars_01_flo
+        /set prop_dynamic_props_medieva_1 target5 prop_med_metal_bars_01_flo_1
+        /set prop_dynamic_props_medieva_1 target6 prop_med_metal_bars_01_flo_2
+        /set prop_dynamic_props_medieva_1 target7 prop_props_invisible_invis_64
+        /set prop_dynamic_props_medieva_1 target8 prop_props_invisible_invis_65
+        /set prop_dynamic_props_medieva_1 target9 prop_dynamic_props_medieva_7_1
+        /set prop_dynamic_props_medieva_1 target10 prop_dynamic_props_medieva_38
+        /set prop_dynamic_props_medieva_1 target11 prop_med_hanging_platform_0
+        /set prop_dynamic_props_medieva_1 target12 prop_dynamic_props_medieva_5
+        
+        /set prop_dynamic_props_medieva_5 target12 prop_dynamic_props_medieva_5 
+            *"prop_dynamic_props_medieva_5" is cloned from "prop_dynamic_props_medieva_1" -> clone also targets actions?
+    [ACTION=MOVE]
+        /set prop_wood_bridge_1_1 action move 0 -550 0 1 400
+        /set prop_wood_bridge_1_0 action move 0 -550 0 1 400
+        /set prop_wood_bridge_1_2 action move 0 -550 0 1 400
+        /set prop_wood_bridge_1_3 action move 0 -550 0 1 400
+        /set prop_med_metal_bars_01_flo action move 0 -550 0 1 400
+        /set prop_med_metal_bars_01_flo_1 action move 0 -550 0 1 400
+        /set prop_med_metal_bars_01_flo_2 action move 0 -550 0 1 400
+        /set prop_props_invisible_invis_64 action move 0 -550 0 1 400
+        /set prop_props_invisible_invis_65 action move 0 -550 0 1 400
+        /set prop_dynamic_props_medieva_7_1 action move 0 -550 0 1 400
+        /set prop_dynamic_props_medieva_38 action move 0 -550 0 1 400
+        /set prop_med_hanging_platform_0 action move 0 -550 0 1 400
+        /set prop_dynamic_props_medieva_5 action move 0 -550 0 1 400
+
+WINDA (na rogu)
+    [TARGET]
+        [prop_dynamic_props_medieva]
+            /set prop_dynamic_props_medieva target prop_dynamic_props_medieva
+            /set prop_dynamic_props_medieva target1 prop_props_medieval_med_cr_65
+            /set prop_dynamic_props_medieva target2 prop_med_metal_bars_01_flo_3
+            /set prop_dynamic_props_medieva target3 prop_med_metal_bars_01_flo_4
+            /set prop_dynamic_props_medieva target4 prop_med_trim_01_wood_box_1
+        [trigger_4]
+            /set trigger_4 target prop_props_medieval_med_cr_65
+            /set trigger_4 target1 prop_med_metal_bars_01_flo_3
+            /set trigger_4 target2 prop_med_metal_bars_01_flo_4
+            /set trigger_4 target3 prop_med_trim_01_wood_box_1
+            
+    [ACTION=MOVE]
+        /set prop_med_metal_bars_01_fwlo_3 action move 0 260 0 2 400
+        /set prop_med_metal_bars_01_flo_4 action move 0 260 0 2 400
+        /set prop_med_trim_01_wood_box_1 action move 0 260 0 2 400
+        /set prop_props_medieval_med_cr_64 action move 0 260 0 2 400
+        /set prop_props_medieval_med_cr_62 action move 0 260 0 2 400
+        /set prop_props_medieval_med_cr_61 action move 0 260 0 2 400
+        /set prop_props_medieval_med_cr_60 action move 0 260 0 2 400
+        /set prop_props_medieval_med_cr_23 action move 0 260 0 2 400
+        /set prop_props_medieval_med_cr_24 action move 0 260 0 2 400
+        /set prop_props_medieval_med_cr_57 action move 0 260 0 2 400
+        /set prop_dynamic_props_medieva_13 action move 0 260 0 2 400
+
+
+/set prop_props_medieval_med_cr_124 action move 0 260 0 2 400
+
+
+/set prop_props_medieval_med_cr_117 action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_57  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_24  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_62  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_65  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_63  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_61  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_60  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_66  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_61  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_63  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_21  action move 0 260 0 2 400
+/set prop_props_medieval_med_cr_23  action move 0 260 0 2 400
+
+
+
+PODLOGA
+        /set prop_wallbars action move 0 0 320 2 3000
+        /set trigger_6 target1 prop_wallbars
+        /set prop_dynamic_props_medieva_65 target prop_wallbars
+        /set prop_dynamic_props_medieva_66 target prop_wallbars
+        
+        /set prop_wallbars_2 action move 0 0 -340 2 3000
+        /set trigger_6 target prop_wallbars_2
+        /set prop_dynamic_props_medieva_65 target prop_wallbars_2
+        /set prop_dynamic_props_medieva_66 target prop_wallbars_2
+        
+DRZWI (DOMEK-JASKINIA)
+        /set prop_mdn_dyn_wall_panel_02_14 action move 0 0 320 2 3000
+        /set trigger_5 target1 prop_mdn_dyn_wall_panel_02_14
+        /set prop_mdn_dyn_wall_panel_02_14 target prop_mdn_dyn_wall_panel_02_14
+        
+        /set prop_mdn_dyn_wall_panel_02_15 action move 0 0 -320 2 3000
+        /set trigger_5 target1 prop_mdn_dyn_wall_panel_02_15
+        /set prop_mdn_dyn_wall_panel_02_15 target prop_mdn_dyn_wall_panel_02_15
