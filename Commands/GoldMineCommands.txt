@@ -97,3 +97,18 @@ DRZWI (DOMEK-JASKINIA)
         /set prop_mdn_dyn_wall_panel_02_15 action move 0 0 -320 2 3000
         /set trigger_5 target1 prop_mdn_dyn_wall_panel_02_15
         /set prop_mdn_dyn_wall_panel_02_15 target prop_mdn_dyn_wall_panel_02_15
+
+DRZWI (GROTA)
+        /set prop_mdn_dyn_wall_panel_02_16 action move 110 0 0 2 3000
+        /set trigger_9 target prop_mdn_dyn_wall_panel_02_16
+        /set prop_mdn_dyn_wall_panel_02_16 target prop_mdn_dyn_wall_panel_02_18
+        
+        /set prop_mdn_dyn_wall_panel_02_18 action move -110 0 0 2 3000
+        /set trigger_9 target1 prop_mdn_dyn_wall_panel_02_18
+        /set prop_mdn_dyn_wall_panel_02_18 target prop_mdn_dyn_wall_panel_02_16
+
+WINDA JASKINIA (WIEZA)
+        /set prop_med_metal_bars_01_fwlo_3 action move 0 260 0 2 400
+        
+        
+        
