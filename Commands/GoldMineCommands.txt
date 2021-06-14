@@ -102,10 +102,23 @@ DRZWI (GROTA)
         /set prop_mdn_dyn_wall_panel_02_16 action move 110 0 0 2 3000
         /set trigger_9 target prop_mdn_dyn_wall_panel_02_16
         /set prop_mdn_dyn_wall_panel_02_16 target prop_mdn_dyn_wall_panel_02_18
+        /set prop_mdn_dyn_wall_panel_02_16 target1 prop_mdn_dyn_wall_panel_02_16
         
         /set prop_mdn_dyn_wall_panel_02_18 action move -110 0 0 2 3000
         /set trigger_9 target1 prop_mdn_dyn_wall_panel_02_18
-        /set prop_mdn_dyn_wall_panel_02_18 target prop_mdn_dyn_wall_panel_02_16
+        /set prop_mdn_dyn_wall_panel_02_18 target prop_mdn_dyn_wall_panel_02_18
+        /set prop_mdn_dyn_wall_panel_02_18 target1 prop_mdn_dyn_wall_panel_02_16
+
+DRZWI (OBOK GROTA)
+        /set prop_mdn_dyn_wall_panel_02_17 action move 0 0 -110 2 3000
+        /set trigger_10 target prop_mdn_dyn_wall_panel_02_17
+        /set prop_mdn_dyn_wall_panel_02_17 target prop_mdn_dyn_wall_panel_02_17
+        /set prop_mdn_dyn_wall_panel_02_17 target1 prop_mdn_dyn_wall_panel_02_19
+        
+        /set prop_mdn_dyn_wall_panel_02_19 action move 0 0 110 2 3000
+        /set trigger_10 target1 prop_mdn_dyn_wall_panel_02_19
+        /set prop_mdn_dyn_wall_panel_02_19 target prop_mdn_dyn_wall_panel_02_19
+        /set prop_mdn_dyn_wall_panel_02_19 target1 prop_mdn_dyn_wall_panel_02_17
 
 WINDA JASKINIA (WIEZA)
         /set prop_med_metal_bars_01_fwlo_3 action move 0 260 0 2 400
