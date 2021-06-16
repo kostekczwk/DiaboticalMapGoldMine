@@ -80,14 +80,40 @@ WINDA (na rogu)
 
 PODLOGA
         /set prop_wallbars action move 0 0 320 2 3000
-        /set trigger_6 target1 prop_wallbars
-        /set prop_dynamic_props_medieva_65 target prop_wallbars
-        /set prop_dynamic_props_medieva_66 target prop_wallbars
-        
         /set prop_wallbars_2 action move 0 0 -340 2 3000
+        /set prop_mdn_dyn_wall_panel_02_20 action move 0 0 320 2 3000
+        /set prop_mdn_dyn_wall_panel_02_21 action move 0 0 -320 2 3000
+        
+        /set prop_dynamic_props_medieva_65 target prop_wallbars
+        /set prop_dynamic_props_medieva_65 target1 prop_wallbars_2
+        /set prop_dynamic_props_medieva_65 target2 prop_mdn_dyn_wall_panel_02_20
+        /set prop_dynamic_props_medieva_65 target3 prop_mdn_dyn_wall_panel_02_21
+        
+        /set prop_dynamic_props_medieva_66 target prop_wallbars
+        /set prop_dynamic_props_medieva_66 target1 prop_wallbars_2
+        /set prop_dynamic_props_medieva_66 target2 prop_mdn_dyn_wall_panel_02_20
+        /set prop_dynamic_props_medieva_66 target3 prop_mdn_dyn_wall_panel_02_21
+        
+        /set prop_wallbars target1 prop_wallbars
+        /set prop_wallbars target prop_wallbars_2
+        /set prop_wallbars target2 prop_mdn_dyn_wall_panel_02_20
+        /set prop_wallbars target3 prop_mdn_dyn_wall_panel_02_21
+        
+        
+        
         /set trigger_6 target prop_wallbars_2
-        /set prop_dynamic_props_medieva_65 target prop_wallbars_2
-        /set prop_dynamic_props_medieva_66 target prop_wallbars_2
+        /set trigger_6 target1 prop_wallbars
+        /set trigger_6 target2 prop_mdn_dyn_wall_panel_02_20
+        /set trigger_6 target2 prop_mdn_dyn_wall_panel_02_21
+        
+        * prop_mdn_dyn_wall_panel_02_20
+        
+        
+        
+        
+        
+        /set prop_mdn_dyn_wall_panel_02_20 target prop_mdn_dyn_wall_panel_02_20
+        ?
         
 DRZWI (DOMEK-JASKINIA)
         /set prop_mdn_dyn_wall_panel_02_14 action move 0 0 320 2 3000
