@@ -39,17 +39,37 @@ WINDA (na rogu)
             /set prop_dynamic_props_medieva target2 prop_med_metal_bars_01_flo_3
             /set prop_dynamic_props_medieva target3 prop_med_metal_bars_01_flo_4
             /set prop_dynamic_props_medieva target4 prop_med_trim_01_wood_box_1
+            /set prop_dynamic_props_medieva target5 prop_props_medieval_med_cr_57
+            /set prop_dynamic_props_medieva target6 prop_mdn_dyn_wall_panel_02_23
+            /set prop_dynamic_props_medieva target7 prop_mdn_dyn_wall_panel_02_24
+            /set prop_dynamic_props_medieva target8 prop_props_invisible_invis_93
+            
         [trigger_4]
             /set trigger_4 target prop_props_medieval_med_cr_65
             /set trigger_4 target1 prop_med_metal_bars_01_flo_3
             /set trigger_4 target2 prop_med_metal_bars_01_flo_4
             /set trigger_4 target3 prop_med_trim_01_wood_box_1
+            /set trigger_4 target4 prop_props_medieval_med_cr_57
+            /set trigger_4 target5 prop_mdn_dyn_wall_panel_02_23
+            /set trigger_4 target6 prop_mdn_dyn_wall_panel_02_24
+            /set trigger_4 target7 prop_props_invisible_invis_93
             
     [ACTION=MOVE]
-        /set prop_med_metal_bars_01_fwlo_3 action move 0 260 0 2 400
-        /set prop_med_metal_bars_01_flo_4 action move 0 260 0 2 400
-        /set prop_med_trim_01_wood_box_1 action move 0 260 0 2 400
-        /set prop_props_medieval_med_cr_64 action move 0 260 0 2 400
+        /set prop_med_metal_bars_01_flo_3 action move 0 220 0 2 300
+        /set prop_med_metal_bars_01_flo_4 action move 0 220 0 2 300
+        /set prop_med_trim_01_wood_box_1 action move 0 220 0 2 300
+        /set prop_props_medieval_med_cr_65 action move 0 220 0 2 300
+        /set prop_props_medieval_med_cr_57 action move 0 220 0 2 300
+        
+        /set prop_mdn_dyn_wall_panel_02_23 action move 0 220 0 2 400
+        /set prop_mdn_dyn_wall_panel_02_24 action move 0 220 0 2 400
+        
+        /set prop_dynamic_props_medieva_14 action move 0 0 50 4 600
+        /set prop_props_invisible_invis_93 action move 0 220 0 2 400
+        
+        
+       
+        
         /set prop_props_medieval_med_cr_62 action move 0 260 0 2 400
         /set prop_props_medieval_med_cr_61 action move 0 260 0 2 400
         /set prop_props_medieval_med_cr_60 action move 0 260 0 2 400
@@ -57,6 +77,8 @@ WINDA (na rogu)
         /set prop_props_medieval_med_cr_24 action move 0 260 0 2 400
         /set prop_props_medieval_med_cr_57 action move 0 260 0 2 400
         /set prop_dynamic_props_medieva_13 action move 0 260 0 2 400
+        
+        
 
 
 /set prop_props_medieval_med_cr_124 action move 0 260 0 2 400
