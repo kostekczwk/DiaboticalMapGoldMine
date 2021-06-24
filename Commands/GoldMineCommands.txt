@@ -28,11 +28,8 @@ WINDA (glowny)
         /set trigger_11 target9 prop_dynamic_props_medieva_38
         /set trigger_11 target10 prop_med_hanging_platform_0
         /set trigger_11 target11 prop_dynamic_props_medieva_5
+        /set trigger_11 target12 prop_med_trim_01_wood_box_12
         
-        
-        
-        TODO: ?
-        * /set trigger_11 target12 prop_med_trim_01_wood_box_12
         
         
         
