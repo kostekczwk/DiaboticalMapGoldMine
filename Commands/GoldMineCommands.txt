@@ -12,6 +12,7 @@ WINDA (glowny)
         /set prop_dynamic_props_medieva_1 target10 prop_dynamic_props_medieva_38
         /set prop_dynamic_props_medieva_1 target11 prop_med_hanging_platform_0
         /set prop_dynamic_props_medieva_1 target12 prop_dynamic_props_medieva_5
+        /set prop_dynamic_props_medieva_1 target13 prop_med_trim_01_wood_box_12
         
         
         
@@ -30,22 +31,27 @@ WINDA (glowny)
         
         
         
+        TODO: ?
+        * /set trigger_11 target12 prop_med_trim_01_wood_box_12
+        
+        
         
         /set prop_dynamic_props_medieva_5 target12 prop_dynamic_props_medieva_5 
             *"prop_dynamic_props_medieva_5" is cloned from "prop_dynamic_props_medieva_1" -> clone also targets actions?
     [ACTION=MOVE]
-        /set prop_wood_bridge_1_1 action move 0 -550 0 1 600
-        /set prop_wood_bridge_1_0 action move 0 -550 0 1 600
-        /set prop_wood_bridge_1_2 action move 0 -550 0 1 600
-        /set prop_wood_bridge_1_3 action move 0 -550 0 1 600
-        /set prop_med_metal_bars_01_flo action move 0 -550 0 1 600
-        /set prop_med_metal_bars_01_flo_2 action move 0 -550 0 1 600
-        /set prop_props_invisible_invis_64 action move 0 -550 0 1 600
-        /set prop_props_invisible_invis_65 action move 0 -550 0 1 600
-        /set prop_dynamic_props_medieva_7_1 action move 0 -550 0 1 600
-        /set prop_dynamic_props_medieva_38 action move 0 -550 0 1 600
-        /set prop_med_hanging_platform_0 action move 0 -550 0 1 600
-        /set prop_dynamic_props_medieva_5 action move 0 -550 0 1 600
+        /set prop_wood_bridge_1_1 action move 0 -550 0 1 550
+        /set prop_wood_bridge_1_0 action move 0 -550 0 1 550
+        /set prop_wood_bridge_1_2 action move 0 -550 0 1 550
+        /set prop_wood_bridge_1_3 action move 0 -550 0 1 550
+        /set prop_med_metal_bars_01_flo action move 0 -550 0 1 550
+        /set prop_med_metal_bars_01_flo_2 action move 0 -550 0 1 550
+        /set prop_props_invisible_invis_64 action move 0 -550 0 1 550
+        /set prop_props_invisible_invis_65 action move 0 -550 0 1 550
+        /set prop_dynamic_props_medieva_7_1 action move 0 -550 0 1 550
+        /set prop_dynamic_props_medieva_38 action move 0 -550 0 1 550
+        /set prop_med_hanging_platform_0 action move 0 -550 0 1 550
+        /set prop_dynamic_props_medieva_5 action move 0 -550 0 1 550
+        /set prop_med_trim_01_wood_box_12 action move 0 -550 0 1 550
 
 WINDA (na rogu)
     [TARGET]
