@@ -168,11 +168,11 @@ PODLOGA
         
         
 DRZWI (DOMEK-JASKINIA)
-        /set prop_mdn_dyn_wall_panel_02_14 action move 0 0 320 2 3000
+        /set prop_mdn_dyn_wall_panel_02_14 action move -100 0 0 2 3000
         /set trigger_5 target1 prop_mdn_dyn_wall_panel_02_14
         /set prop_mdn_dyn_wall_panel_02_14 target prop_mdn_dyn_wall_panel_02_14
         
-        /set prop_mdn_dyn_wall_panel_02_15 action move 0 0 -320 2 3000
+        /set prop_mdn_dyn_wall_panel_02_15 action move 100 0 0 2 3000
         /set trigger_5 target1 prop_mdn_dyn_wall_panel_02_15
         /set prop_mdn_dyn_wall_panel_02_15 target prop_mdn_dyn_wall_panel_02_15
 
