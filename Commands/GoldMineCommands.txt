@@ -199,7 +199,7 @@ DRZWI (OBOK GROTA)
         /set prop_mdn_dyn_wall_panel_02_19 target1 prop_mdn_dyn_wall_panel_02_17
 
 WINDA JASKINIA (WIEZA)
-        /set prop_med_metal_bars_01_fwlo_3 action move 0 260 0 2 400
+        /set prop_med_elevator_1 action move 0 390 0 1.5 500
         
         
         
