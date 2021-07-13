@@ -1,3 +1,7 @@
+
+
+/set prop_dynamic_props_medieva_1 target prop_wood_bridge_1_1
+
 WINDA (glowny)
     [TARGET]
         /set prop_dynamic_props_medieva_1 target prop_wood_bridge_1_1
