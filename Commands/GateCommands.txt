@@ -1,5 +1,15 @@
 
 
+/set prop_med_circular_stone_wa_6 action move 0 500 0 1 550
+/set trigger_5 target prop_med_circular_stone_wa_6
+
+prop_ind_doorhatch
+
+
+
+
+###########################################
+
 /set prop_dynamic_props_medieva_1 target prop_wood_bridge_1_1
 
 WINDA (glowny)
@@ -18,7 +28,8 @@ WINDA (glowny)
         /set prop_dynamic_props_medieva_1 target12 prop_dynamic_props_medieva_5
         /set prop_dynamic_props_medieva_1 target13 prop_med_trim_01_wood_box_12
         
-        
+        prop_ind_doorhatch_2
+        /set prop_ind_doorhatch_2 action move 0 -550 0 1 550
         
         /set trigger_11 target prop_wood_bridge_1_1
         /set trigger_11 target1 prop_wood_bridge_1_2
