@@ -4,7 +4,8 @@
 /set trigger_5 target prop_med_circular_stone_wa_6
 
 prop_ind_doorhatch
-
+/set prop_ind_doorhatch action move 0 300 0 1.5 1500
+/set trigger_5 target prop_ind_doorhatch
 
 
 
