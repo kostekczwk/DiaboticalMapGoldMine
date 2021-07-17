@@ -1,0 +1,27 @@
+###
+
+
+/set prop_med_circular_stone_wa_6 action move 0 500 0 1 550
+/set trigger_5 target prop_med_circular_stone_wa_6
+
+/set prop_ind_doorhatch action move 0 300 0 1.5 1500
+/set trigger_5 target prop_ind_doorhatch
+
+
+###
+
+
+/set prop_med_gateway_gate_1 action move -120 0 0 1.5 1500
+/set prop_med_gateway_gate_2 action move 120 0 0 1.5 1500
+
+/set prop_med_gateway_gate_2 target prop_med_gateway_gate_2
+/set prop_med_gateway_gate_2 target1 prop_med_gateway_gate_1
+
+/set prop_med_gateway_gate_1 target prop_med_gateway_gate_1
+/set prop_med_gateway_gate_1 target1 prop_med_gateway_gate_2
+
+/set trigger_4 target prop_med_gateway_gate_1
+/set trigger_4 target1 prop_med_gateway_gate_2
+
+
+###
