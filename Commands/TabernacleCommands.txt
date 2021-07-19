@@ -44,6 +44,6 @@
 ###
 
 
-/set prop_med_elevator action move 0 220 0 1 500
+/set prop_med_elevator action move 0 200 0 1 500
 /set prop_med_elevator momentum 1.1
 /set trigger target prop_med_elevator
