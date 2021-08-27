@@ -30,14 +30,14 @@
 ###
 
 /set prop_med_elevator_1 action move 0 220 0 1 500
-/set prop_med_elevator_1 momentum 1.2
+/set prop_med_elevator_1 momentum 1.3
 /set trigger_2 target prop_med_elevator_1
 
 
 ###
 
 /set prop_med_elevator_01 action move 0 220 0 1 500
-/set prop_med_elevator_01 momentum 1.2
+/set prop_med_elevator_01 momentum 1.3
 /set trigger_1 target prop_med_elevator_01
 
 
@@ -47,3 +47,11 @@
 /set prop_med_elevator action move 0 200 0 1 500
 /set prop_med_elevator momentum 1.1
 /set trigger target prop_med_elevator
+
+
+###
+
+
+/set prop_med_elevator_2 action move 0 330 0 1 500
+/set prop_med_elevator_2 momentum 1.1
+/set trigger_3 target prop_med_elevator_2
