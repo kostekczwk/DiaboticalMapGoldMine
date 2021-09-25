@@ -14,8 +14,8 @@
 ###
 
 
-/set prop_med_gateway_gate_1 action move -120 0 0 1.5 1500
-/set prop_med_gateway_gate_2 action move 120 0 0 1.5 1500
+/set prop_med_gateway_gate_1 action move -150 0 0 1.5 1500
+/set prop_med_gateway_gate_2 action move 150 0 0 1.5 1500
 
 /set prop_med_gateway_gate_2 target prop_med_gateway_gate_2
 /set prop_med_gateway_gate_2 target1 prop_med_gateway_gate_1
@@ -25,6 +25,38 @@
 
 /set trigger_4 target prop_med_gateway_gate_1
 /set trigger_4 target1 prop_med_gateway_gate_2
+
+
+###
+
+
+/set prop_med_gateway_gate_3 action move -120 0 0 1.5 1500
+/set prop_med_gateway_gate_4 action move 120 0 0 1.5 1500
+
+/set prop_med_gateway_gate_4 target prop_med_gateway_gate_4
+/set prop_med_gateway_gate_4 target1 prop_med_gateway_gate_3
+
+/set prop_med_gateway_gate_3 target prop_med_gateway_gate_3
+/set prop_med_gateway_gate_3 target1 prop_med_gateway_gate_4
+
+/set trigger_1 target prop_med_gateway_gate_3
+/set trigger_1 target1 prop_med_gateway_gate_4
+
+
+###
+
+
+/set prop_med_gateway_gate_5 action move -120 0 0 1.5 1500
+/set prop_med_gateway_gate_6 action move 120 0 0 1.5 1500
+
+/set prop_med_gateway_gate_6 target prop_med_gateway_gate_6
+/set prop_med_gateway_gate_6 target1 prop_med_gateway_gate_5
+
+/set prop_med_gateway_gate_5 target prop_med_gateway_gate_5
+/set prop_med_gateway_gate_5 target1 prop_med_gateway_gate_6
+
+/set trigger_2 target prop_med_gateway_gate_5
+/set trigger_2 target1 prop_med_gateway_gate_6
 
 
 ###
