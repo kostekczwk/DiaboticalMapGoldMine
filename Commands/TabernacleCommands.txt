@@ -95,3 +95,10 @@
 /set prop_med_elevator_3 action move 0 330 0 1 500
 /set prop_med_elevator_2 momentum 1.1
 /set trigger_5 target prop_med_elevator_3
+
+
+####
+
+
+/set prop_dynamic_props_medieva_22 target prop_med_portcullis_1
+/set prop_med_portcullis_1 action move 0 330 0 1 500
