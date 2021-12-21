@@ -93,7 +93,7 @@
 
 
 /set prop_med_elevator_3 action move 0 330 0 1 500
-/set prop_med_elevator_2 momentum 1.1
+/set prop_props_medieval_med_co momentum 1.1
 /set trigger_5 target prop_med_elevator_3
 
 
@@ -101,4 +101,24 @@
 
 
 /set prop_dynamic_props_medieva_22 target prop_med_portcullis_1
-/set prop_med_portcullis_1 action move 0 330 0 1 500
+/set prop_med_portcullis_1 action move 0 -320 0 3 2000
+
+
+### 
+
+
+
+/set trigger_3 target prop_props_medieval_med_co
+/set prop_props_medieval_med_co action move 0 330 0 1 500
+/set prop_props_medieval_med_co momentum 1.1
+
+/set trigger_3 target prop_props_medieval_med_co_2
+/set prop_props_medieval_med_co_2 action move 0 330 0 1 500
+
+
+#####
+
+
+/set prop_med_gateway_gate action move -130 0 0 2 500
+/set trigger_5 target prop_med_gateway_gate
+/set prop_med_gateway_gate target1 prop_med_gateway_gate
