@@ -122,3 +122,38 @@
 /set prop_med_gateway_gate action move -130 0 0 2 500
 /set trigger_5 target prop_med_gateway_gate
 /set prop_med_gateway_gate target1 prop_med_gateway_gate
+
+
+####
+
+/set prop_med_corner_convex_6x6_2 action move -130 0 0 1 2000
+
+
+####
+
+/set prop_med_gateway_gate_3 action move -150 0 0 1.5 1500
+/set prop_med_gateway_gate_10 action move 150 0 0 1.5 1500
+
+/set prop_med_gateway_gate_10 target prop_med_gateway_gate_10
+/set prop_med_gateway_gate_10 target1 prop_med_gateway_gate_3
+
+/set prop_med_gateway_gate_3 target prop_med_gateway_gate_3
+/set prop_med_gateway_gate_3 target1 prop_med_gateway_gate_10
+
+/set trigger_7 target prop_med_gateway_gate_3
+/set trigger_7 target1 prop_med_gateway_gate_10
+
+
+######
+
+
+prop_med_trim_01_wood_vert_5
+
+
+/set prop_med_trim_01_wood_vert_5 action move 0 0 -150 0.5 1500
+/set trigger_8 target prop_med_trim_01_wood_vert_5
+
+/set prop_med_trim_01_wood_vert_6 action move 150 0 0 0.5 1500
+/set trigger_8 target prop_med_trim_01_wood_vert_6
+
+
